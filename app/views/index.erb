@@ -1,0 +1,34 @@
+<div class="container">
+  <h1>Photo Nostalgia</h1>
+  <button class="show-images"> Show </button>
+  <button class="submit-image">Put an Image</button>
+  <button class="search-images"> Search </button>
+
+  <section class="images">
+    <div class="row image dummy" data="">
+      <div class="col-xs-3">
+        <img class="img_url" src="" alt="">
+      </div>
+      <div class="col-xs-9">
+        <span class="author"></span>
+        <span class="description"></span>
+        <button class="delete" data="">delete</button>
+      </div>
+    </div>
+  </section>
+
+  <form class="submission hidden">
+    <label for="author">author</label>
+    <input type="text" id="author" name="author">
+    <label for="img_url">img_url</label>
+    <input type="text" id="img_url" name="img_url">
+    <label for="description">description</label>
+    <input type="text" id="description" name="description">
+    <button type="submit">Sumbit</button>
+  </form>
+
+  <form class="search-image hidden">
+    <input type="text" id="search", name="search" placeholder="search">
+    <button class="search" type="submit">Submit</button>
+  </form>
+</div>
